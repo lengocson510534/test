@@ -13,6 +13,11 @@
   }
 }
 
+body {
+  max-width: 1025px;
+  margin: 0 auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.list__icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }

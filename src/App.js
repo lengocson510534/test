@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Icon from "./UI/Icon";
 
 function App() {
+  const icon = [
+    { icon: "bx bxl-youtube" },
+    { icon: "bx bxl-facebook-circle" },
+    { icon: "bx bxl-instagram" },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div className="list__icon">
+        {icon.map((item, index) => (
+          <Icon icon={item.icon} key="index" />
+        ))}
+      </div>
     </div>
   );
 }
