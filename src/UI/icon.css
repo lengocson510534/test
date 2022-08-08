@@ -1,8 +1,25 @@
 .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px ;
+}
+.icon > i {
+  font-size: 30px;
   width: 50px;
   height: 50px;
-  background: rgb(154, 215, 246);
+  background: rgb(227, 235, 237);
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 100%;
+}
+.icon:hover {
+  cursor: pointer;
+  color: rgb(13, 67, 228);
+}
+
+.title {
+  text-transform: capitalize;
+  margin-top: 10px;
 }

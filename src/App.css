@@ -50,4 +50,7 @@ input {
 .list__icon {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
 }

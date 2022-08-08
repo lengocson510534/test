@@ -1,14 +1,15 @@
 .input {
   display: flex;
   align-items: center;
-  width: 500px;
+  width: 80%;
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 10px;
   justify-content: start;
+  padding: 0 10px;
 }
 
 .input > input {
   padding: 5px 20px;
-  margin-right: 250px;
+  margin-right: 70%;
 }
